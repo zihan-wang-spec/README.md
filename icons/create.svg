@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <ellipse cx="64" cy="112" rx="34" ry="8" fill="#2F3542" opacity="0.12"/>
+  <!-- bulb -->
+  <path d="M64 22c-18 0-32 14-32 32 0 11 5 20 14 26v8c0 4 3 7 7 7h22c4 0 7-3 7-7v-8c9-6 14-15 14-26 0-18-14-32-32-32z" fill="#FFF7E8"/>
+  <path d="M64 22c-18 0-32 14-32 32 0 11 5 20 14 26v8c0 4 3 7 7 7h22c4 0 7-3 7-7v-8c9-6 14-15 14-26 0-18-14-32-32-32z" fill="url(#createShine)" opacity="0.65"/>
+  <path d="M64 22c-18 0-32 14-32 32 0 11 5 20 14 26v8c0 4 3 7 7 7h22c0 4-3 7-7 7H53c-4 0-7-3-7-7v-8C37 74 32 65 32 54 32 36 46 22 64 22z" stroke="#FFB089" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- base -->
+  <rect x="50" y="88" width="28" height="8" rx="3" fill="#FFE0C8"/>
+  <rect x="52" y="96" width="24" height="6" rx="3" fill="#FFB089"/>
+  <!-- filament smile -->
+  <path d="M54 54c4 6 16 6 20 0" stroke="#FFB089" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="54" cy="48" r="3" fill="#2F3542"/>
+  <circle cx="74" cy="48" r="3" fill="#2F3542"/>
+  <circle cx="55" cy="47" r="1" fill="#FFFFFF"/>
+  <circle cx="75" cy="47" r="1" fill="#FFFFFF"/>
+  <!-- sparkles -->
+  <path d="M96 34l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z" fill="#7DCFB0"/>
+  <path d="M30 40l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z" fill="#7EB6E8"/>
+  <path d="M102 62l2 4 4 2-4 2-2 4-2-4-4-2 4-2 2-4z" fill="#FFB089"/>
+  <defs>
+    <linearGradient id="createShine" x1="40" y1="24" x2="88" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFB089" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+</svg>

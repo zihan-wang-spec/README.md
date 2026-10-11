@@ -1,0 +1,7 @@
+# 不要把测评结果库 / 密钥提交到 Git
+server/results.db
+server/__pycache__/
+*.pyc
+.env
+.env.*
+*.pem

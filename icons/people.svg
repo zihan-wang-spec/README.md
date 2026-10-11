@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <ellipse cx="64" cy="112" rx="36" ry="8" fill="#2F3542" opacity="0.12"/>
+  <!-- left pal -->
+  <circle cx="44" cy="42" r="16" fill="#C9E4F7"/>
+  <circle cx="44" cy="42" r="16" fill="url(#peopleL)" opacity="0.5"/>
+  <circle cx="44" cy="42" r="16" stroke="#7EB6E8" stroke-width="3"/>
+  <circle cx="39" cy="40" r="2.2" fill="#2F3542"/>
+  <circle cx="49" cy="40" r="2.2" fill="#2F3542"/>
+  <path d="M39 47c2.5 3 7.5 3 10 0" stroke="#2F3542" stroke-width="2.2" stroke-linecap="round"/>
+  <ellipse cx="36" cy="45" rx="3.5" ry="2" fill="#F4B8A0" opacity="0.7"/>
+  <path d="M30 68c0-8 6-14 14-14s14 6 14 14v18c0 4-3 7-7 7H37c-4 0-7-3-7-7V68z" fill="#A8D0F2"/>
+  <path d="M30 68c0-8 6-14 14-14s14 6 14 14v18c0 4-3 7-7 7H37c-4 0-7-3-7-7V68z" fill="url(#peopleBodyL)" opacity="0.45"/>
+  <!-- right pal -->
+  <circle cx="84" cy="42" r="16" fill="#D2F0E4"/>
+  <circle cx="84" cy="42" r="16" fill="url(#peopleR)" opacity="0.5"/>
+  <circle cx="84" cy="42" r="16" stroke="#7DCFB0" stroke-width="3"/>
+  <circle cx="79" cy="40" r="2.2" fill="#2F3542"/>
+  <circle cx="89" cy="40" r="2.2" fill="#2F3542"/>
+  <path d="M79 47c2.5 3 7.5 3 10 0" stroke="#2F3542" stroke-width="2.2" stroke-linecap="round"/>
+  <ellipse cx="92" cy="45" rx="3.5" ry="2" fill="#F4B8A0" opacity="0.7"/>
+  <path d="M70 68c0-8 6-14 14-14s14 6 14 14v18c0 4-3 7-7 7H77c-4 0-7-3-7-7V68z" fill="#7DCFB0"/>
+  <path d="M70 68c0-8 6-14 14-14s14 6 14 14v18c0 4-3 7-7 7H77c-4 0-7-3-7-7V68z" fill="url(#peopleBodyR)" opacity="0.4"/>
+  <!-- heart between -->
+  <path d="M64 72c-1.5-4 3-8 7-5 4-3 8.5 1 7 5-1.2 3.2-5.2 6.2-7 7.8-1.8-1.6-5.8-4.6-7-7.8z" fill="#FFB089"/>
+  <defs>
+    <linearGradient id="peopleL" x1="32" y1="28" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#7EB6E8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="peopleR" x1="72" y1="28" x2="96" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#7DCFB0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="peopleBodyL" x1="30" y1="54" x2="58" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#5A9AD4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="peopleBodyR" x1="70" y1="54" x2="98" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#3A9A72" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- soft shadow -->
+  <ellipse cx="64" cy="112" rx="34" ry="8" fill="#2F3542" opacity="0.12"/>
+  <!-- compass body -->
+  <circle cx="64" cy="58" r="40" fill="#FFFFFF"/>
+  <circle cx="64" cy="58" r="40" fill="url(#planShine)" opacity="0.55"/>
+  <circle cx="64" cy="58" r="40" stroke="#7EB6E8" stroke-width="4"/>
+  <circle cx="64" cy="58" r="30" fill="#EAF5FC"/>
+  <circle cx="64" cy="58" r="30" stroke="#A8D0F2" stroke-width="2"/>
+  <!-- ticks -->
+  <path d="M64 32v8M64 76v8M38 58h8M82 58h8" stroke="#7EB6E8" stroke-width="3" stroke-linecap="round"/>
+  <!-- needle -->
+  <path d="M64 40 L72 62 L64 56 L56 62 Z" fill="#FFB089"/>
+  <path d="M64 76 L56 54 L64 60 L72 54 Z" fill="#7EB6E8"/>
+  <circle cx="64" cy="58" r="6" fill="#FFFFFF" stroke="#5A9AD4" stroke-width="2"/>
+  <circle cx="64" cy="58" r="2.5" fill="#FFB089"/>
+  <!-- cute blush -->
+  <ellipse cx="46" cy="68" rx="5" ry="3" fill="#F4B8A0" opacity="0.55"/>
+  <ellipse cx="82" cy="68" rx="5" ry="3" fill="#F4B8A0" opacity="0.55"/>
+  <defs>
+    <linearGradient id="planShine" x1="36" y1="24" x2="92" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#7EB6E8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <ellipse cx="64" cy="112" rx="34" ry="8" fill="#2F3542" opacity="0.12"/>
+  <!-- magnifier glass -->
+  <circle cx="52" cy="50" r="28" fill="#FFFFFF"/>
+  <circle cx="52" cy="50" r="28" fill="url(#detailShine)" opacity="0.6"/>
+  <circle cx="52" cy="50" r="28" stroke="#7EB6E8" stroke-width="5"/>
+  <circle cx="52" cy="50" r="18" fill="#E8F8F2"/>
+  <circle cx="52" cy="50" r="18" stroke="#7DCFB0" stroke-width="2"/>
+  <!-- cute face in lens -->
+  <circle cx="46" cy="48" r="2.4" fill="#2F3542"/>
+  <circle cx="58" cy="48" r="2.4" fill="#2F3542"/>
+  <path d="M46 55c2.5 3.5 9.5 3.5 12 0" stroke="#2F3542" stroke-width="2.2" stroke-linecap="round"/>
+  <ellipse cx="42" cy="53" rx="3" ry="1.8" fill="#F4B8A0" opacity="0.65"/>
+  <ellipse cx="62" cy="53" rx="3" ry="1.8" fill="#F4B8A0" opacity="0.65"/>
+  <!-- handle -->
+  <path d="M72 72l22 22" stroke="#FFB089" stroke-width="10" stroke-linecap="round"/>
+  <path d="M72 72l22 22" stroke="#FFC9A8" stroke-width="5" stroke-linecap="round"/>
+  <!-- check spark -->
+  <path d="M96 34l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z" fill="#7DCFB0"/>
+  <path d="M28 78l8 8 14-16" stroke="#FFB089" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="detailShine" x1="28" y1="24" x2="76" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#7EB6E8" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+</svg>
